@@ -1,7 +1,8 @@
 using AudioService;
-using Core.Scripts.Utils;
 using GameService;
-using Service;
+using src.IOC;
+using src.Log;
+using src.Singletons;
 
 public class Test : MonoSingleton<Test>
 {

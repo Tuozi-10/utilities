@@ -1,7 +1,7 @@
 ﻿using System;
-using Service;
+using src.IOC.Service;
 
-namespace Exception
+namespace src.IOC.Exception
 {
     public class DuplicateServiceException: System.Exception
     {

@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
-namespace Core.Scripts.Utils
+namespace src.Pools
 {
     public class Pool<T> where T : Object
     {

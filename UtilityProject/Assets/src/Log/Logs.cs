@@ -3,7 +3,7 @@ using System.Diagnostics;
 using UnityEngine;
 using static UnityEngine.Debug;
 
-namespace Core.Scripts.Utils
+namespace src.Log
 {
     public static class Logs
     {

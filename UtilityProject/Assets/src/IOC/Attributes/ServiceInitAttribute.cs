@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Attributes
+namespace src.IOC.Attributes
 {
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = false, Inherited = true)]
     public class ServiceInitAttribute: Attribute

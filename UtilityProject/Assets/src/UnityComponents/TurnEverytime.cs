@@ -1,7 +1,6 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Core.Scripts.Utils
+namespace src.UnityComponents
 {
     public class TurnEverytime : MonoBehaviour
     {

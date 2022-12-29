@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using src.Log;
+using UnityEngine;
 
-namespace Core.Scripts.Utils
+namespace src.Singletons
 {
     public class MonoSingleton<T> : MonoBehaviour
     {

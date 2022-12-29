@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using static UnityEngine.AddressableAssets.Addressables;
 
-namespace Addressables
+namespace src.Addressables
 {
     public static class AddressableHelper
     {		

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace Exception
+namespace src.IOC.Exception
 {
     public class NotAServiceException : System.Exception
     {

@@ -1,6 +1,6 @@
-﻿using Addressables;
-using Attributes;
-using AudioService;
+﻿using AudioService;
+using src.Addressables;
+using src.IOC.Attributes;
 using UnityEngine;
 using static UnityEngine.AddressableAssets.Addressables;
 

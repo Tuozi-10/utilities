@@ -1,4 +1,4 @@
-﻿using Service;
+﻿using src.IOC.Service;
 
 namespace GameService
 {
