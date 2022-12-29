@@ -1,7 +1,11 @@
 {
     "name": "Utilities",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "Unity.Addressables",
+        "Unity.ResourceManager",
+        "UniTask"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
