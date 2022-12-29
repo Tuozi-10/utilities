@@ -3,7 +3,7 @@
     "version": "0.0.2",
     "displayName": "Utilities",
     "description": "Collection of utility functions to be used in Unity.",
-    "unity": "2021.3.14",
+    "unity": "2021.3",
     "author":  "Jcavaillac",
     "keywords": [
         "Utilities"
