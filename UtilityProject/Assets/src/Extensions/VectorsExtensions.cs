@@ -2,7 +2,7 @@
 
 namespace Core.Scripts.Utils
 {
-    public static class Helpers
+    public static class VectorsExtensions
     {
         #region Vector3
 
