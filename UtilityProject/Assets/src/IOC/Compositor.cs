@@ -31,6 +31,8 @@ namespace src.IOC
 
 #if UniTask
 
+        private bool m_compositionDone;
+        
         private bool ResolveDependencies()
         {
             foreach (KeyValuePair<Type, List<FieldEntry>> slotsForType in m_dependencySlots)
@@ -201,6 +203,12 @@ namespace src.IOC
 
         public void AssignService<T>(T service) where T : IService
         {
+            if (m_compositionDone)
+            {
+                Logs.Log("Compositor","Cannot add service to already composited compositor", Error, Red, Blue);
+                return;
+            }
+            
 #if UniTask
             AddService(service);
 #endif
@@ -208,6 +216,7 @@ namespace src.IOC
     
         public void StartComposition()
         {
+            m_compositionDone = true;
 #if UniTask
             InitCompositor().Forget();
 #endif

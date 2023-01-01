@@ -1,6 +1,6 @@
 {
     "name": "com.jcavaillac.utilities",
-    "version": "0.0.2",
+    "version": "0.0.21",
     "displayName": "Utilities",
     "description": "Collection of utility functions to be used in Unity.",
     "unity": "2021.3",
