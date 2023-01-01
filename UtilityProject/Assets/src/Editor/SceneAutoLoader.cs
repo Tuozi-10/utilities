@@ -27,7 +27,7 @@ namespace src.Editor
 		}
  
 		// Menu items to select the "master" scene and control whether or not to load it.
-		[MenuItem("File/Scene Autoload/Select Master Scene...")]
+		[MenuItem("Tools/Scene Autoload/Select Master Scene...")]
 		private static void SelectMasterScene()
 		{
 			string masterScene = EditorUtility.OpenFilePanel("Select Master Scene", Application.dataPath, "unity");
@@ -39,23 +39,23 @@ namespace src.Editor
 			}
 		}
  
-		[MenuItem("File/Scene Autoload/Load Master On Play", true)]
+		[MenuItem("Tools/Scene Autoload/Load Master On Play", true)]
 		private static bool ShowLoadMasterOnPlay()
 		{
 			return !LoadMasterOnPlay;
 		}
-		[MenuItem("File/Scene Autoload/Load Master On Play")]
+		[MenuItem("Tools/Scene Autoload/Load Master On Play")]
 		private static void EnableLoadMasterOnPlay()
 		{
 			LoadMasterOnPlay = true;
 		}
  
-		[MenuItem("File/Scene Autoload/Don't Load Master On Play", true)]
+		[MenuItem("Tools/Scene Autoload/Don't Load Master On Play", true)]
 		private static bool ShowDontLoadMasterOnPlay()
 		{
 			return LoadMasterOnPlay;
 		}
-		[MenuItem("File/Scene Autoload/Don't Load Master On Play")]
+		[MenuItem("Tools/Scene Autoload/Don't Load Master On Play")]
 		private static void DisableLoadMasterOnPlay()
 		{
 			LoadMasterOnPlay = false;
