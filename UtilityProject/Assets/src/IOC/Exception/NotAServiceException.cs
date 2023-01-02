@@ -3,9 +3,9 @@ using System.Reflection;
 
 namespace src.IOC.Exception
 {
-    public class NotAServiceException : System.Exception
+    internal class NotAServiceException : System.Exception
     {
-        public NotAServiceException(object dependant, FieldInfo fieldInfo, Type type) :
+        internal NotAServiceException(object dependant, FieldInfo fieldInfo, Type type) :
             base($"Field {fieldInfo.Name} of {type.Name} is marked with [DependsOnService], but has type {fieldInfo.FieldType.Name} instead of an interface derived from IService")
         {}
     }
